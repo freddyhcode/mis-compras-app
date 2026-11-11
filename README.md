@@ -1,4 +1,4 @@
-﻿<h1 align="center">Mis Compras</h1>
+<h1 align="center">Mis Compras</h1>
 
 <p align="center">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-3.44.8-02569B?logo=flutter&logoColor=white" />
@@ -15,14 +15,14 @@
 
 ## Descargar
 
-TodavÃ­a no hay APK publicado. Las versiones quedarÃ¡n en [Releases](https://github.com/freddyhcode/mis-compras-app/releases).
+Todavía no hay APK publicado. Las versiones quedarán en [Releases](https://github.com/freddyhcode/mis-compras-app/releases).
 
 ## La idea
 
-La app permite crear compras, agregar productos con cantidad, unidad y precio, calcular el total, consultar el historial, ver estadÃ­sticas y exportar a Excel. Todo queda en el dispositivo: no hay cuentas, nube, publicidad ni analÃ­tica.
+La app permite crear compras, agregar productos con cantidad, unidad y precio, calcular el total, consultar el historial, ver estadísticas y exportar a Excel. Todo queda en el dispositivo: no hay cuentas, nube, publicidad ni analítica.
 
 - Registrar compras de supermercado, online o de cualquier tienda.
-- Guardar quÃ© se comprÃ³, cuÃ¡nto se pagÃ³ y cuÃ¡ndo.
+- Guardar qué se compró, cuánto se pagó y cuándo.
 - Tener un historial consultable y un resumen de gastos.
 - Exportar los datos a Excel cuando el usuario lo pida.
 
@@ -30,10 +30,9 @@ La app permite crear compras, agregar productos con cantidad, unidad y precio, c
 
 - Flutter 3.44.8
 - Dart 3.12.2
-- Android SDK para Android
-- Xcode y macOS para iOS
+- Android SDK
 
-## CÃ³mo correr el proyecto
+## Cómo correr el proyecto
 
 ```bash
 git clone https://github.com/freddyhcode/mis-compras-app.git
@@ -48,9 +47,9 @@ Preview web:
 flutter run -d chrome --dart-define-from-file=.env
 ```
 
-Web usa datos de demo y sirve solo para revisar la interfaz. La validaciÃ³n de seguridad se hace en un APK o dev build.
+Web usa datos de demo y sirve solo para revisar la interfaz. La validación de seguridad se hace en un APK o dev build.
 
-## CÃ³mo compilar
+## Cómo compilar
 
 ### Android
 
@@ -92,7 +91,7 @@ APP_MODE=development
 
 No pongas secretos en estas variables: quedan dentro del build.
 
-## VerificaciÃ³n
+## Verificación
 
 ```bash
 dart format --set-exit-if-changed .
